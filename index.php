@@ -3,8 +3,9 @@
 
 <div class="main">
   <div class="container">
-
+	
     <div class="content">
+    		<h2>HELLO WORLD.</h2>
     		<?php get_template_part( 'loop', 'index' );	?>
     </div> <!--/.content -->
 
