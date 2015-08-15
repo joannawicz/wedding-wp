@@ -12,7 +12,7 @@
 
 
   <?php // Load our CSS ?>
-  <link href='http://fonts.googleapis.com/css?family=Abril+Fatface|Lato:400,100,300' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Abril+Fatface|Lato:400,100,300|Meddon' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 
   <?php wp_head(); ?>
@@ -21,16 +21,17 @@
 
 <body <?php body_class(); ?>>
 
-<header>
+<header class="navigation">
   <div class="container clearfix">
-    <!-- <h1>
+        <h3 class="nav">Wedding Bells</h3>
+    <!--<h1 class="nav">
       <a href="<?php echo home_url( '/' ); ?>" title="<?php bloginfo( 'name', 'display' ); ?>" rel="home">
         <?php bloginfo( 'name' ); ?>
       </a>
     </h1> -->
     <?php wp_nav_menu( array(
       'container' => false,
-      'theme_locations' => 'primary'
+      'theme_location' => 'primary'
     )); ?>
   </div> <!-- /.container -->
 </header><!--/.header-->
