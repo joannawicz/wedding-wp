@@ -8,6 +8,7 @@
 */
 
 @import 'normalize';
+@import 'header-styles';
 @import 'typography';
 @import 'navigation';
 @import 'sidebar';
@@ -94,6 +95,67 @@ body {
 .main {
 	width: 80%;
 	float: right;
+}
+
+// ==================
+// START OF OUR STORY
+h3 {
+	@include header-h3;
+}
+.story {
+	background: gainsboro;
+	text-align:center;
+	@include section;
+}
+.story-h2 {
+	text-align:center;
+	@include header-h2;
+}
+.outer-story-container {
+	display:flex;
+	padding:5%;
+}
+
+.story-container {
+	width: 45%;
+	flex-direction:row;
+	margin:0 auto;
+}
+.profile-pic{
+	text-align:center;
+
+	img {
+	max-width:300px;
+	border-radius:50%;
+	}
+}
+// ================
+// START OF VENUE
+.event {
+	background:$almond;
+	@include section;
+}
+.outer-venue-container {
+	// background: white;
+	border: 5px solid gray;
+	margin: 3%;
+	text-align:center;
+}
+.venue-container {
+	// background: gainsboro;
+	display:flex;
+	justify-content:center;
+	p {
+		@include event-p;
+	}
+}
+.venue {
+	background: ghostwhite;
+	flex-direction:row;
+	text-align:center;
+	padding:20% 5%;
+	margin:10px;
+	width: 40%;
 }
 
 

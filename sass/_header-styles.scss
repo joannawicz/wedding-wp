@@ -1,0 +1,26 @@
+$almond: #F9EEE8;
+
+
+@mixin header-h2 (){
+	font-family: 'Lato', sans-serif;
+	font-weight:300;
+	font-size:40px;
+	color:black;
+	text-transform:uppercase;
+}
+@mixin header-h3 (){
+	font-family: 'Lato', sans-serif;
+	font-weight:300;
+	font-size:20px;
+	color:black;
+}
+@mixin event-p (){
+	font-family: 'Lato', sans-serif;
+	font-weight:300;
+	font-size:16px;
+	color:black;
+}
+
+@mixin section (){
+	padding:6% 0;
+}
