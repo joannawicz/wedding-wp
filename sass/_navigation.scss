@@ -1,0 +1,59 @@
+
+
+/* Navigation Styles */
+.menu {
+	top: 0;
+	left: 0;
+	position: fixed;
+	width: 20%;
+	height: 100vh;
+	background: #EEE0E5;
+	z-index: 1;
+	padding: 0; 
+	margin: 0;
+}
+
+.navigation ul {
+	position: fixed;
+	margin: 0;
+	padding-top: 25%;
+	li {
+		display: block;
+		text-decoration: none;
+		padding: 5% 0;
+		margin: 0 auto;
+		text-align: center;
+		border-bottom: 1px slategrey dotted;
+		width: 80%;
+		a {
+			font-family: 'Lato', sans-serif;
+			font-weight: 300;
+			letter-spacing: 2px;
+			color: slategrey;
+			text-transform: uppercase;
+			background: none;
+			width: 100%;
+			z-index: 10;
+
+		}
+	}
+} 
+.navigation li:hover {
+	border-bottom: 3px solid #FFF0F0;
+
+}
+
+
+h3.nav{
+	width: 20%;
+	margin-top: 10%;
+	text-align: center;
+	font-family: 'Meddon', cursive;
+	line-height: 46px;
+	color: #FFF0F0;
+	font-size: 36px;
+	position: fixed;
+	z-index: 20;
+	text-shadow: 2px 2px slategrey;
+
+}
