@@ -159,7 +159,7 @@ h2.photo  {
  	text-align: center;
 }
 */
-/* Form styles */
+/* Form page styles */
 .form h2{
 	text-align: center;
 	margin: 10% 0;
@@ -170,14 +170,50 @@ h2.photo  {
 	width: 80%;
 	padding: 5%;
 	margin: 0 auto 10%;
-	background: #FFF0F0;
+	background: linear-gradient(rgba(255, 204, 204, 0.9), rgba(255, 204, 204, 0.3)), url(http://backgroundsbase.com/wp-content/uploads/2014/10/vintage-flower-wallpaper-tumblr-quotes-image.jpg) no-repeat;
+	/*background:  #FFF0F0;*/ 
 	text-align: center;
 		p {
-			font-family: 'Lato', sans-serif;
+			font-family: 'Playfair Display', serif;
 			font-weight: 300;
 			letter-spacing: 2px;
+				input[type=text], input[type=email] {
+					font-family: 'Lato', sans-serif;
+					text-transform: uppercase;
+					letter-spacing: 2px;
+					color: slategrey;
+					text-align: center;
+					border: none; 
+					border-bottom: 2px slategrey dotted;
+					background: transparent;
+						
+			    }
 		}
 }
+.wpcf7-form p:nth-child(5) {
+	font-family: 'Playfair Display', serif;
+	font-weight: 900;
+	font-size: 40px;
+	margin: 0;
+}
+textarea {
+	background: #FFF0F0;
+	border: none;
+	border: 1px dotted slategrey;
+}
+
+input[type=submit] {
+	margin-top: 2%;
+	background: #FFF0F0;
+	width: 120px;
+	padding: 1%;
+	font-family: 'Playfair Display', serif;
+	font-weight: 900;
+	border: none;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
 
 
 // ===================

@@ -12,7 +12,7 @@
 
 
   <?php // Load our CSS ?>
-  <link href='http://fonts.googleapis.com/css?family=Abril+Fatface|Lato:400,100,300|Meddon' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,900italic|Lato:400,100,300|Meddon' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 
   <?php wp_head(); ?>
