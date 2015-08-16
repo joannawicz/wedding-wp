@@ -1,5 +1,5 @@
 <?php get_header();  ?>
-<!-- Template Name: Gallery page-->
+<!-- Template Name: Gallery Page-->
 <div class="main">
   <div class="container">
 
