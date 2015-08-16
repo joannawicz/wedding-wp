@@ -1,0 +1,40 @@
+
+
+// ================
+// START OF VENUE
+.event {
+	background:white;
+	@include section;
+	position:relative;
+	border-top: 1px dotted slategray;
+}
+.event-h2 {
+	@include framed-header-h2;
+	background: white;
+	top:38px;
+	left:25%;
+	position:absolute;
+}
+.outer-venue-container {
+	// background: white;
+	border: 3px solid $news;
+	margin: 3%;
+	padding:3%;
+	text-align:center;
+}
+.venue-container {
+	// background: gainsboro;
+	display:flex;
+	justify-content:center;
+	p {
+		@include event-p;
+	}
+}
+.venue {
+	background: $cielo;
+	flex-direction:row;
+	text-align:center;
+	padding:20% 5%;
+	margin:10px;
+	width: 40%;
+}
