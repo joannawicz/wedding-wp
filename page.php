@@ -13,7 +13,7 @@
           <div class="story-container">
             <div class="profile-pic">
               <img src="<?php bloginfo('template_directory'); ?>/images/angelina.jpg" alt"text">
-              <h3><?php the_field('name'); ?></h3>
+              <h3><?php the_field('first_name'); ?></h3>
               <p class="profile-info">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni asperiores nesciunt quibusdam minima rerum iusto accusantium voluptatem magnam, tenetur sint facere maxime, sed dolorem sequi dolorum modi doloribus architecto? Nobis!
               </p>
@@ -22,7 +22,7 @@
           <div class="story-container">
             <div class="profile-pic">
               <img src="<?php bloginfo('template_directory'); ?>/images/brad.jpg" alt"text">
-              <h3><?php the_field('name'); ?></h3>
+              <h3><?php the_field('second_name'); ?></h3>
               <p class="profile-info">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae fuga architecto inventore provident atque et? Nihil tenetur consequuntur ratione temporibus, maiores libero, impedit vel hic aliquid pariatur minima sunt qui.
               </p>
@@ -36,7 +36,7 @@
           =====START OF LOCATION & VENUE -->
       <section class="event">
         <div class="outer-venue-container clearfix">
-          <h2 class="story-h2">Ceremony & Reception</h2>
+          <h2 class="event-h2">Ceremony & Reception</h2>
           <div class="venue-container">
             <div class="venue">
               <h3>Ceremony</h3>
@@ -54,6 +54,20 @@
         </div> <!-- end of outer-venue-container -->
       </section> 
 
+      <!-- ====================================== -->
+      <!-- === START OF MAP ==== -->
+      <section class="map">
+        <div class="location">
+          <img src="<?php bloginfo('template_directory'); ?>/images/map.png" alt"text">
+        </div>
+      </section> <!-- end of map section -->
+      <!-- ====================================== -->
+      <!-- ===START OF REGISTRY -->
+      
+      <section class="registry">
+        <h2 class="story-h2">Registry</h2>
+        <p>We appreciate your gifts!</p>
+      </section> <!-- end of registry -->
 
       
       <?php // Start the loop ?>
