@@ -3,11 +3,23 @@
 <div class="main">
   <div class="container">
     <div class="content">
-
+  <!-- ==========================
+  ===== SPLASH IMAGE ========-->  
+    <div class="hero"> 
+    <?php if ( has_post_thumbnail() ) : ?>
+      <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
+      </a>
+    <?php endif; ?>
+    <?php $thumb_id = get_post_thumbnail_id(); ?>
+    <?php $thumb_url_array = wp_get_attachment_image_src($thumb_id, 'full', true); ?>
+    <?php $thumb_url = $thumb_url_array[0]; ?>
+    <h1><?php the_field('splash_title'); ?></h1>
+    <img src="<?php echo $thumb_url; ?>">
+    </div>
   <!--     ========================
       ===START OF STORY=== -->
       <section class="story">
-
+        
         <h2 class="story-h2">Our Story</h2>
         <div class="outer-story-container clearfix">
           <div class="story-container">
