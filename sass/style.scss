@@ -14,6 +14,7 @@
 @import 'sidebar';
 @import 'comments';
 @import 'footer';
+@import 'splash';
 @import 'story';
 @import 'venue';
 @import 'responsive';
@@ -148,28 +149,21 @@ on click of image */
 h2.photo  {
 	display: none;
 }
-/*.attachment img {
-	width: 60%;
-	height: auto;
-	box-shadow: 10px 10px 5px #C2FFEB;
 
-
-}
-.attachment p {
- 	text-align: center;
-}
-*/
 /* Form page styles */
 .form h2{
+	width: 80%;
 	text-align: center;
-	margin: 10% 0;
 
+	position: absolute;
+	font-size: 30px;
+	font-family: 'Playfair Display', sans-serif;
 }
 
 .wpcf7-form {
 	width: 80%;
 	padding: 5%;
-	margin: 0 auto 10%;
+	margin: 5% auto 10%;
 	background: linear-gradient(rgba(255, 204, 204, 0.9), rgba(255, 204, 204, 0.3)), url(http://backgroundsbase.com/wp-content/uploads/2014/10/vintage-flower-wallpaper-tumblr-quotes-image.jpg) no-repeat;
 	/*background:  #FFF0F0;*/ 
 	text-align: center;
