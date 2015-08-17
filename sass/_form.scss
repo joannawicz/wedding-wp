@@ -1,0 +1,72 @@
+.form {
+	padding: 5%;
+}
+.wpcf7-form {
+	width: 80%;
+	padding: 5%;
+	margin: 0 auto;
+	background: linear-gradient(rgba(255, 204, 204, 0.9), rgba(255, 204, 204, 0.3)), url(http://backgroundsbase.com/wp-content/uploads/2014/10/vintage-flower-wallpaper-tumblr-quotes-image.jpg) no-repeat;
+	border: 5px solid white;
+	box-shadow: 0 0 0 2px slategrey;
+	text-align: center;
+		p {
+			font-family: 'Playfair Display', serif;
+			font-weight: 300;
+			letter-spacing: 2px;
+				input[type=text], input[type=email] {
+					font-family: 'Playfair Display', serif;
+					letter-spacing: 2px;
+					color: white;
+					text-align: center;
+					border: none; 
+					border-bottom: 2px slategrey dotted;
+					background: transparent;
+						
+			    }
+		}
+}
+.wpcf7-form p:nth-child(5) {
+	font-family: 'Playfair Display', serif;
+	font-weight: 900;
+	font-size: 40px;
+	margin: 0;
+}
+.wpcf7-form p:nth-child(8) {
+	margin-top: 2%;
+}
+textarea {
+	background: #FFF0F0;
+	border: none;
+	border: 1px dotted slategrey;
+}
+
+input[type=submit] {
+	margin-top: 2%;
+	background: #FFF0F0;
+	width: 120px;
+	padding: 1%;
+	font-family: 'lato', sans-serif;
+	font-weight: 300;
+	border: none;
+	font-size: 18px;
+	letter-spacing: 2px;
+	border: 1px solid slategrey;
+	box-shadow: 0 0 0 3px white;
+	transition: 0.5s ease;
+}
+
+input[type=submit]:hover {
+	background: #FFCCCC;
+}
+/* Form page styles */
+/* h2.rsvp{
+	width: 80%;
+	text-align: center;
+	position: absolute;
+	font-size: 30px;
+	font-family: 'lato', serif;
+	font-weight: 300;
+	top: 9%;
+	color: white;
+	letter-spacing: 3px;
+} */

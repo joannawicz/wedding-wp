@@ -1,0 +1,55 @@
+/* Styles for the Gallery section 
+- creating a three column grid */
+
+.gallery-content {
+	margin: 0;
+	background: white;
+		h2 {
+			font-family: 'Lato', sans-serif;
+			font-weight: 300;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+			font-size: 35px;
+			text-align: center;
+			margin-top: 0;
+			padding-top: 5%;
+
+		}
+}	
+.gallery-content h3 {
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	letter-spacing: 3px;
+	font-weight: 300;
+	text-transform: uppercase;
+}	
+.gallery  {
+	margin: 2% 2.5% 5% 2.5%;
+    -moz-column-count: 3;
+    -moz-column-gap: 5%;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 5%;
+    column-count: 3;
+    column-gap: 5%;
+    	img {
+			height: auto; 
+			width: 100%;
+		}
+ }
+ .gallery-item {
+	border: 1px solid linen;
+	/*box-shadow: 5px 5px 2px #C2FFEB;*/
+	margin-bottom: 2.5%;
+ 	padding: 2%;
+ }
+.gallery-caption {
+	font-size: 12px;
+	font-family: 'lato', sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+	padding-bottom: 5%;
+	padding-top: 2%;
+}
+
+
+/* End of Gallery */

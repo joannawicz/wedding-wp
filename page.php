@@ -33,7 +33,7 @@
               <img src="<?php echo $photoField['url']; ?>" alt"picture of first person">
               <h3><?php the_field('first_name'); ?></h3>
               <p class="profile-info">
-                <?php the_field('profile-1'); ?>
+                <?php the_field('bride-info'); ?>
               </p>
             </div>
           </div> <!-- end of story-container -->
