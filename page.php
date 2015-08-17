@@ -13,7 +13,9 @@
     <?php $thumb_id = get_post_thumbnail_id(); ?>
     <?php $thumb_url_array = wp_get_attachment_image_src($thumb_id, 'full', true); ?>
     <?php $thumb_url = $thumb_url_array[0]; ?>
+    <h2>save the date,</h2>
     <h1><?php the_field('splash_title'); ?></h1>
+    <h2>are getting hitched!</h2>
     <img src="<?php echo $thumb_url; ?>">
     </div>
   <!--     ========================

@@ -6,8 +6,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Meta tag from responsive menu plugin -->
   <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' />
-
-  <title><?php  wp_title('|', true, 'right'); ?></title>
   <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
 
@@ -23,12 +21,9 @@
 
 <header class="navigation">
   <div class="container clearfix">
-        <h3 class="nav">Wedding Bells</h3>
-    <!--<h1 class="nav">
-      <a href="<?php echo home_url( '/' ); ?>" title="<?php bloginfo( 'name', 'display' ); ?>" rel="home">
-        <?php bloginfo( 'name' ); ?>
-      </a>
-    </h1> -->
+    <div class="img-holder">
+      <img src="<?php bloginfo('template_directory'); ?>/images/noun_183479_cc.png" alt="image">      
+    </div>
     <?php wp_nav_menu( array(
       'container' => false,
       'theme_location' => 'primary'
